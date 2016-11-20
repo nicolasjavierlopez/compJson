@@ -49,7 +49,7 @@ void sigLex()
 	    {
 		    //incrementar el numero de linea
 		    numLinea++;
-            printf("\n");
+            //printf("\n"); //comentado para que no se vean los espacios en blanco en la terminal
 		    continue;
 	    }
 	    else if (c==' ')
@@ -355,6 +355,7 @@ void sigLex()
 	}
 }
 
+/*
 int main(int argc,char* args[])
 {
 	//como imprimir un \n
@@ -425,4 +426,4 @@ int main(int argc,char* args[])
 
 	return 0;
 }
-
+*/
