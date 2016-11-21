@@ -7,7 +7,7 @@ Trabajo práctico de la materia de Compiladores y Lenguajes de Bajo Nivel.
 -Nicolás Javier López.
 
 -- Para compilar el fuente.
-$gcc parser.c -o parser
+$gcc ansintactico.c -o ansintactico
 
 -- Para ejecutar el archivo compilado
-$./parser fuente.txt
+$./ansintactico fuente.txt
