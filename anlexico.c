@@ -1,4 +1,6 @@
-/*
+/*	IMPORTANTE: si va a usar el analizador lexico independientemente del parser
+ *	descomentar la linea 54, y el metodo main de la linea 361
+ *
  *	Analizador Lexico	
  *	Curso: Compiladores y Lenguajes de Bajo de Nivel
  *	
@@ -49,7 +51,7 @@ void sigLex()
 	    {
 		    //incrementar el numero de linea
 		    numLinea++;
-            //printf("\n"); //comentado para que no se vean los espacios en blanco en la terminal
+            //printf("\n"); //comentado para que no se vean los espacios en el parser.c
 		    continue;
 	    }
 	    else if (c==' ')
