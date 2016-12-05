@@ -1,13 +1,13 @@
 # compJson
 Trabajo práctico de la materia de Compiladores y Lenguajes de Bajo Nivel.
 
--- Integrantes--
+**Integrantes**
 
 -Pedro Antonio Navarro.
 -Nicolás Javier López.
 
--- Para compilar el fuente.
-$gcc ansintactico.c -o ansintactico
+**Para compilar el fuente**
+$gcc traductor.c -o traductor
 
--- Para ejecutar el archivo compilado
-$./ansintactico fuente.txt
+**Para ejecutar el archivo compilado**
+$./traductor fuente.txt
